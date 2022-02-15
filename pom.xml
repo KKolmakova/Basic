@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.kolmakova</groupId>
-    <artifactId>first</artifactId>
+    <artifactId>Basic</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>
@@ -22,3 +22,4 @@
     </properties>
 
 </project>
+
