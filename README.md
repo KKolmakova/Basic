@@ -1,2 +1,5 @@
 # Basic
-There is project, with using different basic technologies. Project created in order to develop skills. 
+Project created in order to develop skills, with using different basic technologies. 
+
+### Using design pattern:
+* **Builder** - allows to create composite ojects step by step.
