@@ -1,2 +1,2 @@
 # Basic
-There is project, with using different basic technologies
+There is project, with using different basic technologies. Project created in order to developt skills. 
