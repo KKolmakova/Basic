@@ -82,4 +82,14 @@ public class House {
             return House.this;
         }
     }
+
+    @Override
+    public String toString() {
+        return "House{" +
+                "floor='" + floor + '\'' +
+                ", walls='" + walls + '\'' +
+                ", roof='" + roof + '\'' +
+                ", windows='" + windows + '\'' +
+                '}';
+    }
 }
