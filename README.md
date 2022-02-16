@@ -7,4 +7,6 @@ Application created in order to develop skills, with using different basic techn
 
 ### Using data structure:
 * **Map** - adding data with special identifier named key, witch allows creating pair key-value, _location:_ src/test/java/structure.
+
+### Using tools:
 * **Stream** - allows proccesing and change data structure in one thread, _location:_ src/test/java/structure.
