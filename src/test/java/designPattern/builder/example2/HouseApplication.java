@@ -15,6 +15,6 @@ public class HouseApplication {
                 .setWalls("Bamboo")
                 .build();
 
-        System.out.println(houseUnderConstruction.toString());
+        System.out.println(houseUnderConstruction);
     }
 }
