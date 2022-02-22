@@ -48,4 +48,30 @@ public class StreamExample {
 
         sum.ifPresent(System.out::println);
     }
+
+    @Test
+    public void task3() {
+//        Дан массив строк, переконвертировать в массив чисел, обрабатывая возможножность не валидных данных
+
+        String[] stringArray = {"12", "doggy", "5673", "98"};
+
+        Integer[] intArray = Arrays.stream(stringArray)
+                .map(s -> convertStringToInteger(s))
+                .filter(i -> i != null)
+                .toArray(Integer[]::new);
+
+        Arrays.stream(intArray).forEach(System.out::println);
+    }
+
+    private Integer convertStringToInteger(String s) {
+        int number;
+
+        try {
+            number = Integer.parseInt(s);
+        } catch (NumberFormatException e) {
+            return null;
+        }
+
+        return number;
+    }
 }

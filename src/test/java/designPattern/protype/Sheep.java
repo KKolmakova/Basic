@@ -10,7 +10,7 @@ public class Sheep implements Animal {
     public Animal createCopy() throws CloneNotSupportedException {
         System.out.println("Sheep was coped");
 
-        return (Sheep) super.clone();
+        return (Sheep) this.clone();
     }
 
     @Override
